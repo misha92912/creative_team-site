@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="d-flex flex-column" style="min-height: 100vh;">
+    <header>
+        <!-- Навигация -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
+                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow-1">
+        <!-- Карусель -->
+        <div id="slides" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center city-on-back">
+                <div class="carousel-item active text-white mt-0 mt-sm-3 mt-md-5">
+                    <h3 class="py-3 text-uppercase">First slide</h3>
+                    <p class="card-text px-2 d-none d-sm-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-light text-light bg-dark text-uppercase">Viev more</button>
+                </div>
+                <div class="carousel-item text-white mt-0 mt-sm-3 mt-md-5">
+                    <h3 class="py-3 text-uppercase">Second slide</h3>
+                    <p class="card-text px-2 d-none d-sm-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-light text-light bg-dark text-uppercase">Viev more</button>
+                </div>
+                <div class="carousel-item text-white mt-0 mt-sm-3 mt-md-5">
+                    <h3 class="py-3 text-uppercase">Third slide</h3>
+                    <p class="card-text px-2 d-none d-sm-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-light text-light bg-dark text-uppercase">Viev more</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Наши сервисы (3 карточки) -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-uppercase text-center my-4">our services</h2>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-3">
+                <div class="col text-center">
+                    <h3 class=" text-uppercase">Ducimus</h3>
+                    <img class="d-none d-sm-block mx-auto" src="images/icon_01.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quisquam temporibus? </p>
+                </div>
+                <div class="col text-center">
+                    <h3 class=" text-uppercase">Commodi</h3>
+                    <img class="d-none d-sm-block mx-auto" src="images/icon_02.png" alt="">
+                    <p>Aliquid, quisquam temporibus? Commodi, hic ut ratione excepturi iste ad sapiente.</p>
+                </div>
+                <div class="col text-center">
+                    <h3 class=" text-uppercase">Aliquid</h3>
+                    <img class="d-none d-sm-block mx-auto" src="images/icon_03.png" alt="">
+                    <p>Placeat quidem recusandae dicta nostrum necessitatibus facere eligendi unde sunt tempora.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок картинка+текст 4шт. -->
+        <div class="container-fluid mt-5"> 
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center text-uppercase">Voluptatibus</h2>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+                <div class="media bg-dark text-white p-3 my-1">
+                    <img src="images/icon_04.png" class="mr-3 d-none d-sm-block" alt="...">
+                    <div class="media-body">
+                    <h5 class="mt-0">Nulla vel</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi volupta tibus esse eum tenetur explicabo exercitationem beatae unde dolorem nam commodi maxime, vero, ex minus consectetur accusamus suscipit rem saepe!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="media bg-dark text-white p-3 my-1">
+                    <img src="images/icon_05.png" class="mr-3 d-none d-sm-block" alt="...">
+                    <div class="media-body">
+                    <h5 class="mt-0">Facilis sunt</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt dicta nobis enim magnam, voluptate corrupti, hic nostrum, saepe expedita dolores in ventore? Fugiat, voluptate dolor nam commodi. Ex obcaecati dolorum quaerat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="media bg-dark text-white p-3 my-1">
+                    <img src="images/icon_06.png" class="mr-3 d-none d-sm-block" alt="...">
+                    <div class="media-body">
+                    <h5 class="mt-0">Mossimus amet</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, sit. Nostrum similique nihil mollitia, id culpa saepe temporibus possimus amet facilis nam dolore laboriosam natus laborum, qui quos rem unde!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="media bg-dark text-white p-3 my-1">
+                    <img src="images/icon_07.png" class="mr-3 d-none d-sm-block" alt="...">
+                    <div class="media-body">
+                    <h5 class="mt-0">Officiis nulla</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nulla expedita tempora, atque repudiandae odio eius a repellendus fugiat ipsum, sit, fugit amet minima eum quis. Ut reiciendis dolorum harum.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Команда (большой - 3 колонки; маленький - слайдер) -->
+        <div class="container-fluid mt-5"> 
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center text-uppercase mb-4 mb-sm-1">Our team</h2>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-3">
+            <div class="col text-center">
+                <img src="images/Shakespeare2.jpg" class="img-thumbnail w-75 rounded-circle" alt="">
+                <h4>Ducimus</h4>
+            </div>
+            <div class="col text-center">
+                <img src="images/Shakespeare3.jpg" class="img-thumbnail w-75 rounded-circle" alt="">
+                <h4>Commodi</h4>
+            </div>
+            <div class="col text-center">
+                <img src="images/Shakespeare.jpg" class="img-thumbnail w-75 rounded-circle" alt="">
+                <h4>Aliquid</h4>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid mt-5 pt-3 bg-dark">
+        <!-- кнопки соцсети, all rights -->
+        <div class="row row-cols-1">
+            <div class="col">
+                <div class="text-center justify-content-center d-sm-block">
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Facebook</a>
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Twitter</a>
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Instagram</a>
+                </div>
+            </div>
+            <div class="col text-center text-light mt-2">
+                <p>&copy; 2022 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

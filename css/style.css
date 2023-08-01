@@ -1,0 +1,9 @@
+.city-on-back{
+  height: 40vw;
+  max-height: 90vh;
+  background-image: url(../images/city1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter: grayscale(0.4);
+
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="d-flex flex-column" style="min-height: 100vh;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" aria-current="page" aria-current="page" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-md mt-5 flex-grow-1"> 
+        <div class="row  row-cols-1 row-cols-md-2">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Find us here</h2>
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.144869075497!2d35.02572388013008!3d48.47293477935328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe31044c49461%3A0x2bb0b87c4115ec0b!2z0JTQvdGW0L_RgNC-0LLRgdGM0LrQuNC5INGC0LXRhdC90L7Qu9C-0LPRltGH0L3QuNC5INGD0L3RltCy0LXRgNGB0LjRgtC10YIg0KjQkNCT!5e0!3m2!1suk!2sua!4v1663618670811!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 pt-3">
+                        <h2>Address</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Ukraine, DN</li>
+                            <li class="list-group-item">Phone: (+38) 050-444-22-33</li>
+                            <li class="list-group-item">Email: info@company.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h2>Contact us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input required type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                    <label for="mobile">Mobile</label>
+                    <input type="text" class="form-control" id="mobile" name="mobile">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <textarea required  class="form-control" id="subject" name="subject"></textarea>
+                    </div>
+                    <button type="submit" class="d-block w-100 btn btn-light text-light bg-dark text-uppercase" name="send">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid mt-5 pt-3 bg-dark">
+        <div class="row row-cols-1">
+            <div class="col">
+                <div class="text-center justify-content-center d-sm-block">
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Facebook</a>
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Twitter</a>
+                    <a href="#" class="btn btn-light text-light bg-dark text-uppercase mb-2 mb-sm-0 d-block d-sm-inline">Instagram</a>
+                </div>
+            </div>
+            <div class="col text-center text-light mt-2">
+                <p>&copy; 2022 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
